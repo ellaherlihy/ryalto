@@ -112,6 +112,7 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   padding: 3rem 0 0 3rem;
+  opacity: 0.8;
 }
 
 .blog-grid {
@@ -130,7 +131,7 @@ h2 {
   min-height: 25rem;
   border-radius: 8px;
   margin: 0 1rem 2rem 1rem;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   background: #FDFDFD;
   box-shadow: 0px 0px 29px 2px rgba(82, 105, 122, 0.40);
 }
@@ -154,6 +155,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
   align-self: center;
+  opacity: 0.8;
 }
 
 .blog-post p {
@@ -167,7 +169,7 @@ h2 {
   font-weight: 300;
   line-height: 24px; /* 150% */
   align-self: center;
-
+  opacity: 0.8;
 }
 
 .blog-post button {
@@ -183,7 +185,12 @@ h2 {
   align-items: center;
   flex-shrink: 0;
   align-self: center;
+}
 
+.blog-post button:hover {
+  color: white;
+  background-color: #2F98E8;
+  opacity: 1;
 }
 
 .blog-info {
