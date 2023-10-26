@@ -237,3 +237,31 @@ h2 {
   font-weight: 400;
   line-height: 16px; /* 125% */
 }
+
+footer {
+  width: 100%;
+  background-color: #2F98E8;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 8rem;
+  margin-left: 3rem;
+}
+
+.footer-icons {
+  margin: 0 3rem 0 0;
+}
+
+i {
+  color: #2F98E8;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 40px;
+  margin-left: .3rem;
+}
