@@ -30,6 +30,8 @@ navbar {
   height: 1.5rem;
   padding: 0 2.5rem 0 0;
   margin: 0;
+  cursor: pointer;
+
 }
 
 .navbar--logo {
@@ -71,7 +73,8 @@ navbar {
 header {
   width: 100%;
   /* background-color: rgb(48, 152, 232); */
-  background: linear-gradient(135deg, rgb(140, 199, 248) 0%, rgb(21, 140, 231) 100%);
+  /* background: linear-gradient(135deg, rgb(181, 215, 243) 0%, rgb(2, 137, 239) 100%); */
+  background: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
   padding: 0;
   margin: 0;
   display: flex;
@@ -99,7 +102,12 @@ header p {
 }
 
 h2 {
-  color: #2F98E8;
+  background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding: 0;
+  margin: 2rem 0 1rem 0;
   text-align: center;
   font-size: 48px;
   font-style: normal;
@@ -109,10 +117,12 @@ h2 {
 
 .post-text {
   color: #ABABAB;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  padding: 3rem 0 0 3rem;
+  padding: 0;
+  margin: 0 0 2rem 0;
   opacity: 0.8;
+  text-align: center;
 }
 
 .blog-grid {
@@ -121,7 +131,8 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 3rem 3rem 3rem;
+  padding: 0;
+  margin-bottom: 2rem;
 }
 
 .blog-post {
@@ -163,7 +174,7 @@ h2 {
   margin: 0 0 1rem 0;
   width: 85%;
   min-height: 5rem;
-  text-align: justify;
+  text-align: left;
   color: #1E212D;
   font-size: 1rem;
   font-weight: 300;
@@ -249,7 +260,7 @@ footer {
 }
 
 .footer-logo {
-  width: 8rem;
+  width: 9rem;
   margin-left: 3rem;
 }
 
@@ -259,9 +270,10 @@ footer {
 
 i {
   color: #2F98E8;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: white;
-  padding: 1.2rem;
+  padding: .8rem;
   border-radius: 40px;
   margin-left: .3rem;
+  cursor: pointer;
 }
