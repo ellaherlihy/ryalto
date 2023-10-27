@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="icon" href="./images/favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryalto Developer Page</title>
     <link rel="stylesheet" href="style.css">
@@ -13,8 +13,11 @@
   </head>
   <body>
     <nav>
-      <img src="./images/logos/ryalto-logo-lg.png" alt="ryalto-logo" class="navbar-logo">
-      <img src="./images/toggle.png" alt="toggle-icon" class="navbar-toggle-icon">
+      <section class="navbar-logo-container">
+        <img src="./images/logos/ryalto-logo-lg.png" alt="ryalto navbar logo" class="navbar-logo">
+        <p>Developer Page</p>
+      </section>
+      <img src="./images/toggle.png" alt="toggle icon" class="navbar-toggle-icon">
     </nav>
       <ul>
         <li><a href="">Blog</a></li>
@@ -34,23 +37,23 @@
     <p class="post-count">8 Posts</p>
     <main class="blog-grid">
       <article>
-        <img src="/images/posts/github.webp" alt="github-actions" class="blog-img">
+        <img src="/images/posts/github.webp" alt="github and rails logos" class="blog-img">
         <h3>Migrating to GitHub Actions for Rails CI</h3>
         <p>
           RubyCI is tragically shutting down, so I'm migrating to GitHub Actions for Rails CI.
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <!-- <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="" class="phil"> -->
-            <time>October 13, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <!-- <div class="author-avatar-phil"></div> -->
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-10-13">October 13, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/engineering.webp" alt="engineering" class="blog-img">
+        <img src="/images/posts/engineering.webp" alt="engineering graphic" class="blog-img">
         <h3>Our Engineering Principles</h3>
         <p>
           The principles that we follow as we build high quality
@@ -58,15 +61,15 @@
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <time>September 08, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-09-08">September 08, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/ruby on rails.jpeg" alt="ruby-on-rails" class="blog-img">
+        <img src="/images/posts/ruby on rails.jpeg" alt="ruby on rails logo" class="blog-img">
         <h3>Getting into Ruby on Rails</h3>
         <p>
           A friend recently asked me how to get started with
@@ -74,15 +77,15 @@
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <time>August 18, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-08-18">August 18, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/hotwirept2.png" alt="Hotwire Handbook Part 2" class="blog-img">
+        <img src="/images/posts/hotwirept2.png" alt="Hotwire text animation" class="blog-img">
         <h3>Hotwire Handbook Part 2</h3>
         <p>
           Part Two of the Hotwire Handbook. A detailed dive into pagination with Hotwire.
@@ -90,15 +93,15 @@
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <time>June 27, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-06-27">June 27, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/question.jpeg" alt="Upgrade or Rebuild?" class="blog-img">
+        <img src="/images/posts/question.jpeg" alt="question mark on keyboard" class="blog-img">
         <h3>Upgrade or Rebuild?</h3>
         <p>
           It’s a question that many developers face. Maintenance takes a back seat to "urgent" new features,
@@ -106,15 +109,15 @@
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <time>June 25, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-06-25">June 25, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/author.jpeg" alt="Admin Authorisation at Ryalto" class="blog-img">
+        <img src="/images/posts/author.jpeg" alt="two people with magnifying glass and computer" class="blog-img">
         <h3>Admin Authorisation at Ryalto</h3>
         <p>
           We're working on a better way to manage the relationship between users and organisations. This post
@@ -122,15 +125,15 @@
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <time>June 14, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-06-14">June 14, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/hotwirept1.png" alt="Hotwire Handbook Part 1" class="blog-img">
+        <img src="/images/posts/hotwirept1.png" alt="Hotwire cable graphic" class="blog-img">
         <h3>Hotwire Handbook Part 1</h3>
         <p>
           A guide that covers a range of Hotwire use cases with examples. This part covers Toggle Buttons,
@@ -138,31 +141,31 @@
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-phil"></div>
-          <div class="author-date-info">
-            <div class="author">Phil</div>
-            <time>March 22, 2022</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/phil.svg" alt="Phil avatar picture" class="author-avatar-phil">
+          <section class="author-date-info">
+            <address class="author">Phil</address>
+            <time datetime="2022-03-22">March 22, 2022</time>
+          </section>
         </section>
       </article>
       <article>
-        <img src="/images/posts/toggle_on.jpeg" alt="javascript-toggle" class="blog-img">
+        <img src="/images/posts/toggle_on.jpeg" alt="javascript toggle button" class="blog-img">
         <h3>Simple Javascript Theme Toggle</h3>
         <p>
           This post is going to talk through setting up a theme toggle using plain JavaScript.
         </p>
         <button>READ MORE</button>
         <section class="blog-info">
-          <div class="author-avatar-koto"></div>
-          <div class="author-date-info">
-            <div class="author">Koto</div>
-            <time>May 20, 2021</time>
-          </div>
+          <img src="https://developer.ryalto.group/assets/images/team/koto.svg" alt="Koto avatar picture" class="author-avatar-koto">
+          <section class="author-date-info">
+            <address class="author">Koto</address>
+            <time datetime="2021-05-20">May 20, 2021</time>
+          </section>
         </section>
       </article>
     </main>
     <footer>
-      <img src="./images/logos/Ryalto-Logo-2022-WHITE-1-1024x393.png" alt="ryalto-logo" class="footer-logo">
+      <img src="./images/logos/Ryalto-Logo-2022-WHITE-1-1024x393.png" alt="footer ryalto logo" class="footer-logo">
       <section class="footer-icons">
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-solid fa-globe"></i>
